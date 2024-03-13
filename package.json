@@ -1,0 +1,16 @@
+{
+  "name": "CalcTokens",
+  "version": "1.0.0",
+  "description": "计算llm预计消耗的token",
+  "main": "main.js",
+  "author": "FB208",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron . --inspect"
+  },
+  "dependencies": {
+    "cnpm": "^9.4.0",
+    "electron": "^29.1.1",
+    "tiktoken": "^1.0.13"
+  }
+}
